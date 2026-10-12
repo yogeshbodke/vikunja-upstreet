@@ -1,0 +1,7 @@
+services:
+  vikunja:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3456:3456
